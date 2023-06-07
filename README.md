@@ -45,3 +45,9 @@ yarn release
 ## Join our Discord!
 
 For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+
+<!-- //////////////////////////// -->
+This is solidity smartcontract based on ethreum smartchain. 
+In this we write each functions requred in creating and handeling fund raising applictaion.
+Fomr this you can also take idea of how to make smart contract for e-voting system
+<!-- //////////////////////////// -->
