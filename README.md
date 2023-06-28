@@ -1,53 +1,27 @@
-## Getting Started
+# Fund Raising Smart Contract
 
-Create a project using this example:
+This repository contains a smart contract developed using Solidity, a programming language for writing smart contracts on the Ethereum blockchain. The smart contract facilitates fund raising by providing a secure and transparent platform for individuals or organizations to raise funds for their projects or causes.
 
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
+## Features
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+- **Secure fund raising:** The smart contract ensures the security of funds raised by implementing a robust and auditable financial system on the Ethereum blockchain.
+- **Transparency:** All transactions and contributions made to the fund raising campaign are transparent and verifiable on the blockchain, ensuring accountability and trust.
+- **Customizable parameters:** The smart contract is designed to be customizable, allowing fundraisers to set parameters such as the fundraising goal, time limits, and contribution limits.
+- **Automatic refunds:** In case the fundraising goal is not met within the specified time limit, the smart contract automatically refunds the contributed funds to the respective contributors.
+- **Event tracking:** The smart contract emits events for various actions, making it easier to track and monitor the progress of the fund raising campaign.
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+## Installation
 
-## Building the project
+1. Clone the repository: `git clone https://github.com/imranmustafa030/Fund-Raising-Smartcontracts.git`
+2. Compile the Solidity smart contract using a Solidity compiler.
+3. Deploy the compiled smart contract to the Ethereum network using tools like Remix or Truffle.
 
-After any changes to the contract, run:
+Note: Make sure you have a compatible Ethereum development environment set up before deploying the smart contract.
 
-```bash
-npm run build
-# or
-yarn build
-```
+## Contributing
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-## Deploying Contracts
+## Credits
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
-
-<!-- //////////////////////////// -->
-This is solidity smartcontract based on ethreum smartchain. 
-In this we write each functions requred in creating and handeling fund raising applictaion.
-Fomr this you can also take idea of how to make smart contract for e-voting system
-<!-- //////////////////////////// -->
+Thank you for checking out this repository. The smart contract was developed using Solidity, a powerful language for building decentralized applications on the Ethereum blockchain.
